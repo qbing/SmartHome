@@ -1,0 +1,11 @@
+..\obj\os_time.o: ..\kernel\os_time.c
+..\obj\os_time.o: ..\kernel\ucos_ii.h
+..\obj\os_time.o: ..\kernel\./CONFIG/includes.h
+..\obj\os_time.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\os_time.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+..\obj\os_time.o: C:\Keil\ARM\ARMCC\bin\..\include\ctype.h
+..\obj\os_time.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+..\obj\os_time.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
+..\obj\os_time.o: ..\kernel\./CONFIG/../ucos_ii.h
+..\obj\os_time.o: ..\kernel\./CONFIG/../CPU/os_cpu.h
+..\obj\os_time.o: ..\kernel\./CONFIG/os_cfg.h

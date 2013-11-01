@@ -1,0 +1,4 @@
+#!/bin/bash
+#./windows-x86-default/bin/goahead.exe -v ../SmartHomeWeb/
+#pause
+./linux-x86-default/bin/goahead.exe -v ../SmartHomeWeb/

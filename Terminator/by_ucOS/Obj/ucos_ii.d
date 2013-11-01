@@ -1,0 +1,16 @@
+..\Obj\ucos_ii.o: ..\kernel\ucos_ii.c
+..\Obj\ucos_ii.o: ..\kernel\ucos_ii.h
+..\Obj\ucos_ii.o: ..\kernel\./CONFIG/includes.h
+..\Obj\ucos_ii.o: F:\Keil\ARM\RV31\Inc\stdio.h
+..\Obj\ucos_ii.o: F:\Keil\ARM\RV31\Inc\string.h
+..\Obj\ucos_ii.o: F:\Keil\ARM\RV31\Inc\ctype.h
+..\Obj\ucos_ii.o: F:\Keil\ARM\RV31\Inc\stdlib.h
+..\Obj\ucos_ii.o: F:\Keil\ARM\RV31\Inc\stdarg.h
+..\Obj\ucos_ii.o: ..\kernel\./CONFIG/../ucos_ii.h
+..\Obj\ucos_ii.o: ..\kernel\./CONFIG/../CPU/os_cpu.h
+..\Obj\ucos_ii.o: ..\kernel\./CONFIG/os_cfg.h
+..\Obj\ucos_ii.o: F:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_map.h
+..\Obj\ucos_ii.o: F:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_conf.h
+..\Obj\ucos_ii.o: F:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_type.h
+..\Obj\ucos_ii.o: F:\Keil\ARM\Inc\ST\STM32F10x\cortexm3_macro.h
+..\Obj\ucos_ii.o: F:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_nvic.h

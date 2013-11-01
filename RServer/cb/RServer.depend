@@ -1,0 +1,173 @@
+# depslib dependency file v1.0
+1383268061 source:c:\qbingwork\smarthome\rserver\smarthomeserver\src\catom.cpp
+	<stdio.h>
+	<netinet/in.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<semaphore.h>
+	<vector>
+	<list>
+	<string.h>
+	"json/json.h"
+	"SHP.h"
+	"CAtom.h"
+
+1268379096 c:\qbingwork\smarthome\rserver\smarthomeserver\export_lib\jsoncpp-src-0.5.0\include\json\json.h
+	"autolink.h"
+	"value.h"
+	"reader.h"
+	"writer.h"
+	"features.h"
+
+1268379096 c:\qbingwork\smarthome\rserver\smarthomeserver\export_lib\jsoncpp-src-0.5.0\include\json\autolink.h
+	"config.h"
+	<cpptl/cpptl_autolink.h>
+	"autolink.h"
+
+1268379096 c:\qbingwork\smarthome\rserver\smarthomeserver\export_lib\jsoncpp-src-0.5.0\include\json\config.h
+	<cpptl/config.h>
+
+1268379096 c:\qbingwork\smarthome\rserver\smarthomeserver\export_lib\jsoncpp-src-0.5.0\include\json\value.h
+	"forwards.h"
+	<string>
+	<vector>
+	<map>
+	<cpptl/smallmap.h>
+	<cpptl/forwards.h>
+
+1268379096 c:\qbingwork\smarthome\rserver\smarthomeserver\export_lib\jsoncpp-src-0.5.0\include\json\forwards.h
+	"config.h"
+
+1268379096 c:\qbingwork\smarthome\rserver\smarthomeserver\export_lib\jsoncpp-src-0.5.0\include\json\reader.h
+	"features.h"
+	"value.h"
+	<deque>
+	<stack>
+	<string>
+	<iostream>
+
+1268379096 c:\qbingwork\smarthome\rserver\smarthomeserver\export_lib\jsoncpp-src-0.5.0\include\json\features.h
+	"forwards.h"
+
+1268379096 c:\qbingwork\smarthome\rserver\smarthomeserver\export_lib\jsoncpp-src-0.5.0\include\json\writer.h
+	"value.h"
+	<vector>
+	<string>
+	<iostream>
+
+1380416370 c:\qbingwork\smarthome\shp.h
+	"SHP_CONFIG.h"
+
+1379462795 c:\qbingwork\smarthome\shp_config.h
+
+1380422474 c:\qbingwork\smarthome\rserver\smarthomeserver\inc\catom.h
+	"SmartHomeInfr.h"
+
+1380445876 c:\qbingwork\smarthome\rserver\smarthomeserver\inc\smarthomeinfr.h
+	<stdio.h>
+	<stdlib.h>
+	<netinet/in.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<semaphore.h>
+	<vector>
+	<list>
+	<string.h>
+	"json/json.h"
+	"SHP.h"
+	"CAtom.h"
+
+1383288093 source:c:\qbingwork\smarthome\rserver\smarthomeserver\src\ccontrolor.cpp
+	"SmartHomeInfr.h"
+
+1383286143 source:c:\qbingwork\smarthome\rserver\smarthomeserver\src\cdevice.cpp
+	"SmartHomeInfr.h"
+
+1379258862 source:c:\qbingwork\smarthome\rserver\smarthomeserver\src\cdevicetest.cpp
+	"SmartHomeInfr.h"
+
+1378519651 source:c:\qbingwork\smarthome\rserver\smarthomeserver\src\device.cpp
+
+1383067514 source:c:\qbingwork\smarthome\rserver\smarthomeserver\src\main.cpp
+	<netinet/in.h>
+	<errno.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<fcntl.h>
+	<unistd.h>
+	<pthread.h>
+	<semaphore.h>
+	<termios.h>
+	<arpa/inet.h>
+	"SmartHomeInfr.h"
+
+1378519651 source:c:\qbingwork\smarthome\rserver\smarthomeserver\src\network.cpp
+
+1383067514 source:c:\qbingwork\smarthome\rserver\smarthomeserver\src\smarthomecomserver.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	"shp.h"
+
+1380445938 source:c:\qbingwork\smarthome\rserver\smarthomeserver\src\smarthomeinfr.cpp
+	"SmartHomeInfr.h"
+
+1268379096 source:c:\qbingwork\smarthome\rserver\smarthomeserver\export_lib\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
+	<json/reader.h>
+	<json/value.h>
+	<utility>
+	<cstdio>
+	<cassert>
+	<cstring>
+	<iostream>
+	<stdexcept>
+
+1268379096 source:c:\qbingwork\smarthome\rserver\smarthomeserver\export_lib\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
+	<iostream>
+	<json/value.h>
+	<json/writer.h>
+	<utility>
+	<stdexcept>
+	<cstring>
+	<cassert>
+	<cpptl/conststring.h>
+	<cstddef>
+	"json_batchallocator.h"
+	"json_internalarray.inl"
+	"json_internalmap.inl"
+	"json_valueiterator.inl"
+
+1268379096 c:\qbingwork\smarthome\rserver\smarthomeserver\export_lib\jsoncpp-src-0.5.0\src\lib_json\json_batchallocator.h
+	<stdlib.h>
+	<assert.h>
+
+1268379096 c:\qbingwork\smarthome\rserver\smarthomeserver\export_lib\jsoncpp-src-0.5.0\src\lib_json\json_internalarray.inl
+
+1268379096 c:\qbingwork\smarthome\rserver\smarthomeserver\export_lib\jsoncpp-src-0.5.0\src\lib_json\json_internalmap.inl
+
+1268379096 c:\qbingwork\smarthome\rserver\smarthomeserver\export_lib\jsoncpp-src-0.5.0\src\lib_json\json_valueiterator.inl
+
+1268379096 source:c:\qbingwork\smarthome\rserver\smarthomeserver\export_lib\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
+	<json/writer.h>
+	<utility>
+	<assert.h>
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<sstream>
+	<iomanip>
+
+1379322914 source:c:\qbingwork\smarthome\rserver\smarthomeserver\export_lib\md5\md5.c
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<math.h>
+

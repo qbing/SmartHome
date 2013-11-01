@@ -1,0 +1,51 @@
+*** Creating Trace Output File '..\Obj\sauna.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\obj\startup_stm32f10x_md.o"'
+### List of Objects: adding '"..\obj\main.o"'
+### List of Objects: adding '"..\obj\stm32f10x_it.o"'
+### List of Objects: adding '"..\obj\system_stm32f10x.o"'
+### List of Objects: adding '"..\obj\delay.o"'
+### List of Objects: adding '"..\obj\config.o"'
+### List of Objects: adding '"..\obj\misc.o"'
+### List of Objects: adding '"..\obj\stm32f10x_dbgmcu.o"'
+### List of Objects: adding '"..\obj\stm32f10x_exti.o"'
+### List of Objects: adding '"..\obj\stm32f10x_gpio.o"'
+### List of Objects: adding '"..\obj\stm32f10x_rcc.o"'
+### List of Objects: adding '"..\obj\stm32f10x_rtc.o"'
+### List of Objects: adding '"..\obj\stm32f10x_tim.o"'
+### List of Objects: adding '"..\obj\stm32f10x_usart.o"'
+### List of Objects: adding '"..\obj\ds1820.o"'
+### List of Objects: adding '"..\obj\relay.o"'
+### List of Objects: adding '"..\obj\tty.o"'
+### List of Objects: adding '"..\obj\usart.o"'
+### List of Objects: adding '"..\obj\os_core.o"'
+### List of Objects: adding '"..\obj\os_flag.o"'
+### List of Objects: adding '"..\obj\os_mbox.o"'
+### List of Objects: adding '"..\obj\os_mem.o"'
+### List of Objects: adding '"..\obj\os_mutex.o"'
+### List of Objects: adding '"..\obj\os_q.o"'
+### List of Objects: adding '"..\obj\os_sem.o"'
+### List of Objects: adding '"..\obj\os_task.o"'
+### List of Objects: adding '"..\obj\os_time.o"'
+### List of Objects: adding '"..\obj\os_tmr.o"'
+### List of Objects: adding '"..\obj\os_cpu_c.o"'
+### List of Objects: adding '"..\obj\os_dbg.o"'
+### List of Objects: adding '"..\obj\os_dbg_r.o"'
+### List of Objects: adding '"..\obj\os_cpu_a.o"'
+### List of Objects: adding '"..\obj\task.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "..\obj\startup_stm32f10x_md.o" "..\obj\main.o" "..\obj\stm32f10x_it.o" "..\obj\system_stm32f10x.o" "..\obj\delay.o" "..\obj\config.o" "..\obj\misc.o" "..\obj\stm32f10x_dbgmcu.o" "..\obj\stm32f10x_exti.o" "..\obj\stm32f10x_gpio.o" "..\obj\stm32f10x_rcc.o" "..\obj\stm32f10x_rtc.o" "..\obj\stm32f10x_tim.o" "..\obj\stm32f10x_usart.o" "..\obj\ds1820.o" "..\obj\relay.o" "..\obj\tty.o" "..\obj\usart.o" "..\obj\os_core.o" "..\obj\os_flag.o" "..\obj\os_mbox.o" "..\obj\os_mem.o" "..\obj\os_mutex.o" "..\obj\os_q.o" "..\obj\os_sem.o" "..\obj\os_task.o" "..\obj\os_time.o" "..\obj\os_tmr.o" "..\obj\os_cpu_c.o" "..\obj\os_dbg.o" "..\obj\os_dbg_r.o" "..\obj\os_cpu_a.o" "..\obj\task.o" --strict --scatter "..\Obj\sauna.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\sauna.map" -o ..\Obj\sauna.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\Obj\sauna.axf'
+### ADS-LD Command File: '..\Obj\sauna.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\Obj\sauna.lnp', Handle=0x0000061C
+### Writing '.lnp' file
+### ADS-LD Command file '..\Obj\sauna.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

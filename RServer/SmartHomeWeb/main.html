@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+	<TITLE> ZTREE DEMO - left_menu</TITLE>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="css/demo.css" type="text/css">
+	<link rel="stylesheet" href="css/zTreeStyle/zTreeStyle.css" type="text/css">
+	<script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.ztree.core-3.5.js"></script>
+	<script type="text/javascript" src="js/shp.menu.ztree.js"></script>
+	<style type="text/css">
+		.ztree li a.level0 {width:200px;height: 20px; text-align: center; display:block; background-color: #0B61A4; border:1px silver solid;}
+		.ztree li a.level0.cur {background-color: #66A3D2; }
+		.ztree li a.level0 span {display: block; color: white; padding-top:3px; font-size:12px; font-weight: bold;word-spacing: 2px;}
+		.ztree li a.level0 span.button {	float:right; margin-left: 10px; visibility: visible;display:none;}
+		.ztree li span.button.switch.level0 {display:none;}
+		
+		div#rMenu {position:absolute; visibility:hidden; top:0; background-color: #555;text-align: left;padding: 2px;}
+		div#rMenu ul li{
+			margin: 1px 0;
+			padding: 0 5px;
+			cursor: pointer;
+			list-style: none outside none;
+			background-color: #DFDFDF;
+		}
+		
+		#main {
+			float: left;
+			height: auto;
+			width: auto;
+			border: 1px solid #FF0000;
+		}
+		#left {
+			float: left;
+			height: 100%;
+			width: 30%;
+			border: 1px solid #00FF00;
+		}
+		#right {
+			float: right;
+			height: 100%;
+			width: 65%;
+			border: 1px solid #0000FF;
+		}
+		.left_div {
+			border: 1px solid #999999;
+		}
+		.serverTree{
+			background-image:url(图片路径);
+			background-repeat:no-repeat;
+		}
+	</style>
+ </HEAD>
+ 
+<BODY>
+	<h1>Smart Home</h1>
+	
+	<div id="formate_jsom_str">
+	JsonStr...
+	</div>	
+	
+	<div id="treeDemo" class="ztree" >
+	</div>	
+
+	<div id="rMenu">
+		<ul>
+			<li id="m_open" onclick="shp_onOpen();">打开</li>
+			<li id="m_close" onclick="shp_onClose();">关闭</li>
+			<li id="m_help" onclick="shp_onHelp();">帮助</li>
+		</ul>
+	</div>
+
+
+</BODY>
+</HTML>
+

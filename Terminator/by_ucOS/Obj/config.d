@@ -1,0 +1,16 @@
+..\obj\config.o: ..\init\CONFIG.c
+..\obj\config.o: ..\init\stm32f10x.h
+..\obj\config.o: ..\init\stm32f10x_conf.h
+..\obj\config.o: ..\FWlib\inc\stm32f10x_gpio.h
+..\obj\config.o: ..\init\stm32f10x.h
+..\obj\config.o: ..\init\stm32f10x_conf.h
+..\obj\config.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+..\obj\config.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\config.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+..\obj\config.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+..\obj\config.o: ..\init\system_stm32f10x.h
+..\obj\config.o: ..\FWlib\inc\stm32f10x_rcc.h
+..\obj\config.o: ..\init\stm32f10x.h
+..\obj\config.o: ..\init\CONFIG.h
+..\obj\config.o: ..\FWlib\inc\misc.h
+..\obj\config.o: ..\init\stm32f10x.h

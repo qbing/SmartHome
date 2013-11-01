@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/light1Btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_weight="10"
+        android:background="@drawable/disable_light_"
+        android:scaleType="fitCenter" />
+
+    <ImageButton
+        android:id="@+id/cdplayerBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:layout_weight="10"
+        android:background="@drawable/disable_player"
+        android:scaleType="fitCenter" />
+
+    <ImageButton
+        android:id="@+id/settingBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:layout_weight="10"
+        android:background="@drawable/off_setting"
+        android:scaleType="fitCenter" />
+
+    <ImageButton
+        android:id="@+id/light2Btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:layout_weight="10"
+        android:background="@drawable/disable_read"
+        android:scaleType="fitCenter" />
+
+</LinearLayout>

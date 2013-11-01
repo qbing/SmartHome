@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#337e7e7e"
+    android:orientation="vertical" >
+    
+     <FrameLayout
+        android:id="@+id/FrameLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#ff66cc33" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/smarthome"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_btns_linearlayout"
+        android:layout_below="@+id/FrameLayout1"
+        android:background="#ffffffff"
+        android:orientation="vertical" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffcccccc"
+            android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/ibtn_power"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:baselineAlignBottom="false"
+                android:cropToPadding="false"
+                android:fitsSystemWindows="false"
+                android:padding="0dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/monitor_btn" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/tvPowerTip"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="总电量"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000" />
+
+                <TextView
+                    android:id="@+id/tvPower"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="30dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="120.00"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+        
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="1dp" >
+
+            <ImageButton
+                android:id="@+id/ibtn_Water"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:baselineAlignBottom="false"
+                android:cropToPadding="false"
+                android:fitsSystemWindows="false"
+                android:padding="0dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/monitor_btn" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/tvWaterTip"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="总水量"
+                    android:textColor="#ff000000"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/tvWater"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="30dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="13.53"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+        
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="1dp" >
+
+            <ImageButton
+                android:id="@+id/ibtn_camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_vertical|fill_horizontal"
+                android:adjustViewBounds="true"
+                android:baselineAlignBottom="false"
+                android:cropToPadding="false"
+                android:fitsSystemWindows="false"
+                android:padding="0dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/monitor_btn" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/tvCameraTip"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="视频监控"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000" />
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginRight="50dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/camera" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+        
+        </LinearLayout>
+        
+    </FrameLayout>
+
+<LinearLayout
+        android:id="@+id/bottom_btns_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="90px"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/buttom_home_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:src="@drawable/normal_home_btn" />
+
+        <ImageView
+            android:id="@+id/buttom_monitor_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:src="@drawable/pressed_monitor_btn" />
+
+        <ImageView
+            android:id="@+id/buttom_me_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:src="@drawable/normal_me_btn" />
+    </LinearLayout>
+
+
+</RelativeLayout>

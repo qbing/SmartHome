@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:clickable="true" >
+
+        <ImageButton
+            android:id="@+id/light1Btn"
+            android:layout_width="fill_parent"
+            android:layout_height="80px"
+            android:layout_weight="10"
+            android:background="@drawable/disable_light_"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/light2Btn"
+            android:layout_width="fill_parent"
+            android:layout_height="80px"
+            android:layout_weight="10"
+            android:background="@drawable/disable_read"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/cdplayerBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="80px"
+            android:layout_weight="10"
+            android:background="@drawable/disable_player"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/settingBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="80px"
+            android:layout_weight="10"
+            android:background="@drawable/off_setting"
+            android:scaleType="fitCenter" />
+    </LinearLayout>
+     <TextView
+         android:id="@+id/TempTV"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerVertical="true"
+         android:layout_marginLeft="45dp"
+         android:text="35.0\u2103"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textColor="#f0ff00"
+         android:textSize="80sp" />
+
+     <TextView
+         android:id="@+id/title"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@+id/msgTV"
+         android:layout_alignParentLeft="true"
+         android:layout_marginLeft="14dp"
+         android:text="Smart Sauna"
+         android:textColor="#ffffffff"
+         android:textSize="30sp" />
+
+     <TextView
+         android:id="@+id/msgTV"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_marginLeft="15dp"
+         android:layout_marginTop="16dp"
+         android:layout_toRightOf="@+id/title"
+         android:text="Initilizing..."
+         android:textSize="20sp" />
+
+</RelativeLayout>

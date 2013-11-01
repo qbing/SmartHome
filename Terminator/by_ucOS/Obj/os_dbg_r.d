@@ -1,0 +1,11 @@
+..\obj\os_dbg_r.o: ..\kernel\CPU\os_dbg_r.c
+..\obj\os_dbg_r.o: ..\kernel\CPU\../ucos_ii.h
+..\obj\os_dbg_r.o: ..\kernel\CPU\.././CONFIG/includes.h
+..\obj\os_dbg_r.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\os_dbg_r.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+..\obj\os_dbg_r.o: C:\Keil\ARM\ARMCC\bin\..\include\ctype.h
+..\obj\os_dbg_r.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+..\obj\os_dbg_r.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
+..\obj\os_dbg_r.o: ..\kernel\CPU\.././CONFIG/../ucos_ii.h
+..\obj\os_dbg_r.o: ..\kernel\CPU\.././CONFIG/../CPU/os_cpu.h
+..\obj\os_dbg_r.o: ..\kernel\CPU\.././CONFIG/os_cfg.h

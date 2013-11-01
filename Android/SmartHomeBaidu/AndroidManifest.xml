@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zju.smarthomebaidu"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+    
+	<uses-permission android:name ="android.permission.INTERNET"/>
+	<uses-permission android:name ="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:name="com.zju.smarthomebaidu.StartActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.zju.smarthomebaidu.HomeActivity"/>
+        <activity android:name="com.zju.smarthomebaidu.RoomDetailActivity"/>
+        <activity android:name="com.zju.smarthomebaidu.Add_Devices_Main"/>
+        <activity android:name="com.zju.smarthomebaidu.Monitor_Activity"/>
+        <activity android:name="com.zju.smarthomebaidu.Me_Activity"/>
+        <activity android:name="com.zju.smarthomebaidu.Add_Devices_Scan"/>
+        <activity android:name="com.zju.smarthomebaidu.TouchMatchActivity"/>
+        <activity android:name="com.zju.smarthomebaidu.InputBarcodeActivity"/>
+        <activity android:name="com.zju.smarthomebaidu.VideoManagerActivity"/>
+        <activity android:name="com.zju.smarthomebaidu.Device_HairAirconditionor_Activity"/>
+        <activity android:name="com.zju.smarthomebaidu.AddRoomActivity"/>
+        <activity android:name="com.zju.smarthomebaidu.Device_NormalLight_Activity"/>
+        <activity android:name="com.zju.smarthomebaidu.PowerAnaliyzeAcitvity"/>
+        <activity android:name="com.zju.smarthomebaidu.WaterAnaliyzeAcitvity"/>
+        
+    </application>
+
+</manifest>

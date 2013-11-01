@@ -1,0 +1,6 @@
+---- CONTENT_TYPE Matches (6 in 4 files) ----
+Cgi.html (doc\guide\goahead\users):                        <td>CONTENT_TYPE</td>
+Cgitest.c (test):        if (strcmp(safeGetenv("CONTENT_TYPE"), "application/x-www-form-urlencoded") == 0) {
+Cgitest.c (test):    printf("<P>CONTENT_TYPE=%s</P>\r\n", safeGetenv("CONTENT_TYPE"));
+Http.c (src):    websSetVar(wp, "CONTENT_TYPE", wp->contentType);
+Upload.c (src):            trace(5, "Set files[%s][CONTENT_TYPE] = %s", wp->uploadVar, rest);

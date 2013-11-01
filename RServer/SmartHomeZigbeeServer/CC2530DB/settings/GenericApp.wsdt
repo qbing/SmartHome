@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>GenericApp/CoordinatorEB</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>253</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+    <Build><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>910</ColumnWidth1><ColumnWidth2>242</ColumnWidth2><ColumnWidth3>60</ColumnWidth3></Build><Debug-Log/><Find-in-Files><ColumnWidth0>437</ColumnWidth0><ColumnWidth1>62</ColumnWidth1><ColumnWidth2>750</ColumnWidth2></Find-in-Files></Static>
+    <Windows>
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-20102-27898</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>GenericApp</ExpandedNode><ExpandedNode>GenericApp/App</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3><Tabs><Tab><Identity>TabID-5004-28590</Identity><TabName>Build</TabName><Factory>Build</Factory><Session/></Tab><Tab><Identity>TabID-2623-22307</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab><Tab><Identity>TabID-26776-27724</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>E:\&#x667A;&#x80FD;&#x6851;&#x62FF;&#x623F;\svn\RServer\SmartHomeZigbeeServer\Source\GenericApp.c</Filename><XPos>0</XPos><YPos>310</YPos><SelStart>11740</SelStart><SelEnd>11740</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\&#x667A;&#x80FD;&#x6851;&#x62FF;&#x623F;\svn\RServer\SmartHomeZigbeeServer\COMPONENTS\mt\MT_SAPI.h</Filename><XPos>0</XPos><YPos>43</YPos><SelStart>2600</SelStart><SelEnd>2600</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\&#x667A;&#x80FD;&#x6851;&#x62FF;&#x623F;\svn\RServer\SmartHomeZigbeeServer\Source\OnBoard.c</Filename><XPos>0</XPos><YPos>413</YPos><SelStart>10352</SelStart><SelEnd>10352</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\&#x667A;&#x80FD;&#x6851;&#x62FF;&#x623F;\svn\RServer\SmartHomeZigbeeServer\Source\ZMain.c</Filename><XPos>0</XPos><YPos>220</YPos><SelStart>7566</SelStart><SelEnd>7566</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\&#x667A;&#x80FD;&#x6851;&#x62FF;&#x623F;\svn\RServer\SmartHomeZigbeeServer\COMPONENTS\hal\target\CC2530EB\hal_led.c</Filename><XPos>0</XPos><YPos>182</YPos><SelStart>6360</SelStart><SelEnd>6360</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\&#x667A;&#x80FD;&#x6851;&#x62FF;&#x623F;\svn\RServer\SmartHomeZigbeeServer\Source\OnBoard.h</Filename><XPos>0</XPos><YPos>196</YPos><SelStart>7286</SelStart><SelEnd>7298</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\&#x667A;&#x80FD;&#x6851;&#x62FF;&#x623F;\svn\RServer\SmartHomeZigbeeServer\COMPONENTS\zmac\f8w\zmac.c</Filename><XPos>0</XPos><YPos>116</YPos><SelStart>5812</SelStart><SelEnd>5812</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\&#x667A;&#x80FD;&#x6851;&#x62FF;&#x623F;\svn\SHP.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>54</SelStart><SelEnd>63</SelEnd></Tab><ActiveTab>7</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>E:\&#x667A;&#x80FD;&#x6851;&#x62FF;&#x623F;\svn\SHP.h</Filename><XPos>0</XPos><YPos>99</YPos><SelStart>2306</SelStart><SelEnd>2306</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-0279d588><key>iaridepm.enu1</key></Toolbar-0279d588></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>476</Bottom><Right>327</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>157109</sizeHorzCX><sizeHorzCY>275482</sizeHorzCY><sizeVertCX>258445</sizeVertCX><sizeVertCY>658402</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>205</Bottom><Right>1275</Right><x>-2</x><y>-2</y><xscreen>1277</xscreen><yscreen>207</yscreen><sizeHorzCX>1003142</sizeHorzCX><sizeHorzCY>285124</sizeHorzCY><sizeVertCX>157109</sizeVertCX><sizeVertCY>275482</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

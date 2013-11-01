@@ -1,0 +1,14 @@
+..\obj\tty.o: ..\Driver\tty.c
+..\obj\tty.o: ..\Driver\tty.h
+..\obj\tty.o: ..\Driver\../FWlib/inc/stm32f10x_usart.h
+..\obj\tty.o: C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h
+..\obj\tty.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+..\obj\tty.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\tty.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+..\obj\tty.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+..\obj\tty.o: C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h
+..\obj\tty.o: ..\Driver\../FWlib/inc/stm32f10x_gpio.h
+..\obj\tty.o: ..\Driver\../init/stm32f10x_it.h
+..\obj\tty.o: ..\Driver\../init/stm32f10x.h
+..\obj\tty.o: ..\Driver\../init/stm32f10x_conf.h
+..\obj\tty.o: ..\FWlib\inc\stm32f10x_rcc.h

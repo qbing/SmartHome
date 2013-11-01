@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:id="@+id/FrameLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#ff66cc33" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/smarthome"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </FrameLayout>
+    
+<FrameLayout
+        android:id="@+id/center_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_btns_linearlayout"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/FrameLayout1"
+        android:scrollbars="vertical" >
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffffff"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/enter_main_room_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/main_room" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <ImageButton
+                        android:id="@+id/enter_room_1_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5"
+                        android:adjustViewBounds="true"
+                        android:maxHeight="300dp"
+                        android:maxWidth="300dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/room_1" />
+
+                    <ImageButton
+                        android:id="@+id/enter_room_2_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/room_2" />
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/enter_main_room_3_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:adjustViewBounds="true"
+                    android:baselineAlignBottom="true"
+                    android:cropToPadding="true"
+                    android:fitsSystemWindows="false"
+                    android:paddingTop="0dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/kitchen_room" />
+                
+                <ImageButton
+                    android:id="@+id/add_room_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:adjustViewBounds="true"
+                    android:baselineAlignBottom="true"
+                    android:cropToPadding="true"
+                    android:fitsSystemWindows="false"
+                    android:paddingTop="0dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/add_room" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+        </FrameLayout>
+
+
+    
+
+    <LinearLayout
+        android:id="@+id/bottom_btns_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="90px"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/buttom_home_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:src="@drawable/pressed_home_btn" />
+
+        <ImageView
+            android:id="@+id/buttom_monitor_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:src="@drawable/normal_monitor_btn" />
+
+        <ImageView
+            android:id="@+id/buttom_me_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:src="@drawable/normal_me_btn" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,4 @@
+--cpu Cortex-M3 ".\startup_stm32f10x_md.o" "main.o" --strict --scatter "sauna.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\sauna.map" -o sauna.axf

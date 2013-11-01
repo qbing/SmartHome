@@ -1,0 +1,15 @@
+..\obj\ds1820.o: ..\Driver\DS1820.c
+..\obj\ds1820.o: ..\Driver\DS1820.h
+..\obj\ds1820.o: C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h
+..\obj\ds1820.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+..\obj\ds1820.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\ds1820.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+..\obj\ds1820.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+..\obj\ds1820.o: C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h
+..\obj\ds1820.o: ..\Driver\../init/Delay.h
+..\obj\ds1820.o: ..\FWlib\inc\stm32f10x_gpio.h
+..\obj\ds1820.o: ..\Driver\tty.h
+..\obj\ds1820.o: ..\Driver\../FWlib/inc/stm32f10x_usart.h
+..\obj\ds1820.o: ..\..\by_noOS\Src\framework\framework.h
+..\obj\ds1820.o: ..\..\by_noOS\Src\util\communicate.h
+..\obj\ds1820.o: ..\..\by_noOS\Src\framework\framework.h

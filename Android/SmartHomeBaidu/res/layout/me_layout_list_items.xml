@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/me_about_viewgroup"
+        android:layout_width="match_parent"
+        android:layout_height="120px" >
+
+        <Button
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/list_item_bg" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="关于SmartHomeAPP"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ff000000" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/me_server_setting_viewgroup"
+        android:layout_width="match_parent"
+        android:layout_height="120px" >
+
+        <Button
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/list_item_bg" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="远程服务器设置"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ff000000" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/me_high_level_setting_viewgroup"
+        android:layout_width="match_parent"
+        android:layout_height="120px" >
+
+        <Button
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/list_item_bg" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="高级设置"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ff000000" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/me_userinfor_viewgroup"
+        android:layout_width="match_parent"
+        android:layout_height="120px" >
+
+        <Button
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/list_item_bg" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="账户信息"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ff000000" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/exit_imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:padding="0dp"
+        android:src="@drawable/exit_btn" />
+
+</LinearLayout>

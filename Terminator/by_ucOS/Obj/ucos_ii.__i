@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\kernel\CPU -I F:\Keil\ARM\RV31\Inc -I F:\Keil\ARM\CMSIS\Include -I F:\Keil\ARM\Inc\ST\STM32F10x -o "..\Obj\ucos_ii.o" --omf_browse "..\Obj\ucos_ii.crf" --depend "..\Obj\ucos_ii.d" "..\kernel\ucos_ii.c"

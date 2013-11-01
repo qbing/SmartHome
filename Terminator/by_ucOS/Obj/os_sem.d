@@ -1,0 +1,11 @@
+..\obj\os_sem.o: ..\kernel\os_sem.c
+..\obj\os_sem.o: ..\kernel\ucos_ii.h
+..\obj\os_sem.o: ..\kernel\./CONFIG/includes.h
+..\obj\os_sem.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\os_sem.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+..\obj\os_sem.o: C:\Keil\ARM\ARMCC\bin\..\include\ctype.h
+..\obj\os_sem.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+..\obj\os_sem.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
+..\obj\os_sem.o: ..\kernel\./CONFIG/../ucos_ii.h
+..\obj\os_sem.o: ..\kernel\./CONFIG/../CPU/os_cpu.h
+..\obj\os_sem.o: ..\kernel\./CONFIG/os_cfg.h

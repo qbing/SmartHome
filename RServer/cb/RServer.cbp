@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="RServer" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/RServer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="cygwin" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../SmartHomeServer/export_lib/jsoncpp-src-0.5.0/include" />
+					<Add directory="../../../SmartHome" />
+					<Add directory="../SmartHomeServer/inc" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/RServer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../SmartHomeServer/export_lib/MD5/MD5.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../SmartHomeServer/export_lib/jsoncpp-src-0.5.0/src/lib_json/json_batchallocator.h" />
+		<Unit filename="../SmartHomeServer/export_lib/jsoncpp-src-0.5.0/src/lib_json/json_reader.cpp" />
+		<Unit filename="../SmartHomeServer/export_lib/jsoncpp-src-0.5.0/src/lib_json/json_value.cpp" />
+		<Unit filename="../SmartHomeServer/export_lib/jsoncpp-src-0.5.0/src/lib_json/json_writer.cpp" />
+		<Unit filename="../SmartHomeServer/src/CAtom.cpp" />
+		<Unit filename="../SmartHomeServer/src/CControlor.cpp" />
+		<Unit filename="../SmartHomeServer/src/CDevice.cpp" />
+		<Unit filename="../SmartHomeServer/src/CDeviceTest.cpp" />
+		<Unit filename="../SmartHomeServer/src/SmartHomeComServer.cpp" />
+		<Unit filename="../SmartHomeServer/src/SmartHomeInfr.cpp" />
+		<Unit filename="../SmartHomeServer/src/device.cpp" />
+		<Unit filename="../SmartHomeServer/src/main.cpp" />
+		<Unit filename="../SmartHomeServer/src/network.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

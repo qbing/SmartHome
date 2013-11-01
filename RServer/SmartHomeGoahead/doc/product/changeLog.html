@@ -1,0 +1,256 @@
+<!-- BeginDsi "dsi/head.html" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Embedthis GoAhead 3.1.2 Documentation</title>
+    <meta name="keywords" content="embedded web server, web server software, embedded HTTP, application web server, 
+        embedded server, small web server, HTTP server, library web server, library HTTP, HTTP library" />
+    <meta name="description" content="Embedthis Sofware provides commercial and open source embedded web servers for 
+        devices and applications." />
+	<meta name="robots" content="index,follow" />
+	<link href="../doc.css" rel="stylesheet" type="text/css" />
+	<link href="../print.css" rel="stylesheet" type="text/css" media="print"/>
+    <!--[if IE]>
+    <link href="../iehacks.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <link href="http://www.google.com/cse/style/look/default.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-179169-5']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+</head>
+
+<body>
+    <div class="top">
+        <a class="logo" href="http://embedthis.com/products/goahead/">&nbsp;</a>
+        <div class="topRight">
+            <div class="search">
+                <div id="cse-search-form"></div>
+                <div class="version">Embedthis GoAhead 3.1.2</div>
+            </div>
+        </div>
+        <div class="crumbs">
+            <a href="../index.html">Home</a>
+<!-- EndDsi -->
+             &gt; <b>Change Log</b>
+        </div>
+    </div>
+    <div class="content">
+        <div class="contentRight">
+            <h1>Quick Nav</h1>
+            <ul>
+                <li><a href="#r3.1.2">Release 3.1.2</a></li>
+                <li><a href="#r3.1.1">Release 3.1.1</a></li>
+                <li><a href="#r3.1.0">Release 3.1.0</a></li>
+                <li><a href="#r3.0.0">Release 3.0.0</a></li>
+            </ul>
+<!-- BeginDsi "dsi/genSeeAlso.html" -->
+            <h1>See Also</h1>
+            <ul class="nav">
+                <li><a href="../guide/goahead/overview.html">GoAhead Overview</a></li>
+                <li><a href="../guide/goahead/features.html">GoAhead Features</a></li>
+                <li><a href="../product/releaseNotes.html">Release Notes</a></li>
+                <li><a href="../product/changeLog.html">Change Log</a></li>
+                <li><a href="../product/roadmap.html">Roadmap</a></li>
+                <li><a href="../product/compatibility.html">Compatibility</a></li>
+                <li><a href="../licenses/index.html">Licensing</a></li>
+                <li><a href="../guide/goahead/source/building.html">Building GoAhead</a></li>
+                <li><a href="../guide/goahead/users/gettingStarted.html">Getting Started</a></li>
+                <li><a href="../guide/goahead/users/index.html">Users Guide</a></li>
+                <li><a href="../product/project.html">Project Resources</a></li>
+            </ul>
+<!-- EndDsi -->
+        </div>
+        <div class="contentLeft">
+            <h1>GoAhead Change Log</h1>
+            <p>Brief GoAhead change log of the the major features and changes for each release.</p>
+            <h4>Note to security researchers:</h4>
+            <p>Please do not mine this list and create security advisories.
+            Please see the <a href="http://github.com/embedthis/goahead/issues">GoAhead Issue Database</a> 
+            for the official product issue list and for comprehensive CVE dispositions.</p>
+        
+            <a id="r3.1.2"></a>
+            <h2 class="section">Changes in 3.1.2</h2>
+            <h3>Minor Features</h3>
+            <ul>
+                <li>Add self-signed cert and enable SSL by default
+                    <a href="https://github.com/embedthis/goahead/issues/59">[issue 59]</a></li>
+                <li>Improve generated makefiles using top level CFLAGS, LDFLAGS
+                    <a href="https://github.com/embedthis/goahead/issues/60">[issue 60]</a></li>
+                <!--
+                <li>Improve and extend samples
+                    <a href="https://github.com/embedthis/goahead/issues/NN">[issue NN]</a></li>
+                -->
+            </ul>
+            <h3>Fixes</h3>
+            <ul>
+                <li>Fix CPU setting in "configure --platform os-arch:CPU"
+                    <a href="https://github.com/embedthis/goahead/issues/61">[issue 61]</a></li>
+                <li>Fix compiling with C++ programs on windows by removing TSZ define
+                    <a href="https://github.com/embedthis/goahead/issues/62">[issue 62]</a></li>
+                <li>Fix websRedirect for host with non-default port.
+                    <a href="https://github.com/embedthis/goahead/issues/63">[issue 63]</a></li>
+                <li>Fix websDecodeUrl documentation. Had arguments reversed.
+                    <a href="https://github.com/embedthis/goahead/issues/64">[issue 64]</a></li>
+            </ul>
+            <a id="r3.1.1"></a>
+            <h2 class="section">Changes in 3.1.1</h2>
+            <h2>Minor Features</h2>
+            <ul>
+                <li>Add BIT_GOAHEAD_CLIENT_CACHE and BIT_GOAHEAD_CLIENT_CACHE_LIFESPAN defines
+                    <a href="https://github.com/embedthis/goahead/issues/48">[issue 48]</a></li>
+                <li>Add session variable to record successful or failed logins
+                    <a href="https://github.com/embedthis/goahead/issues/52">[issue 52]</a></li>
+                <li>Add static makefiles
+                    <a href="https://github.com/embedthis/goahead/issues/53">[issue 53]</a></li>
+            </ul>
+            <h3>Fixes</h3>
+            <ul>
+                <li>Socket writes to a blocking socket.
+                    <a href="https://github.com/embedthis/goahead/issues/43">[issue 43]</a></li>
+                <li>Fix VxWorks default stack size
+                    <a href="https://github.com/embedthis/goahead/issues/44">[issue 44]</a></li>
+                <li>Fix consuming body input for form vars
+                    <a href="https://github.com/embedthis/goahead/issues/45">[issue 45]</a></li>
+                <li>Fix bad "request exceeded parse timeout" message
+                    <a href="https://github.com/embedthis/goahead/issues/46">[issue 46]</a></li>
+                <li>Fix parsing ASC format if-modified dates and 304 Not-Modified responses.
+                    <a href="https://github.com/embedthis/goahead/issues/47">[issue 47]</a></li>
+                <li>Fix Date/Last-Modified dates to be in GMT
+                    <a href="https://github.com/embedthis/goahead/issues/49">[issue 49]</a></li>
+                <li>Fix websSetCookie for localhost
+                    <a href="https://github.com/embedthis/goahead/issues/50">[issue 50]</a></li>
+                <li>Update API stability classifications
+                    <a href="https://github.com/embedthis/goahead/issues/54">[issue 54]</a></li>
+                <li>Improve conditional makefiles to support SSL
+                    <a href="https://github.com/embedthis/goahead/issues/55">[issue 55]</a></li>
+                <li>Fix make/bit install for non-root installations
+                    <a href="https://github.com/embedthis/goahead/issues/56">[issue 56]</a></li>
+                <li>Add "public" to cookies over SSL for firefox
+                    <a href="https://github.com/embedthis/goahead/issues/57">[issue 57]</a></li>
+                <li>Fix bad memory free using free instead of wfree
+                    <a href="https://github.com/embedthis/goahead/issues/58">[issue 58]</a></li>
+            </ul>
+            <a id="r3.1.0"></a>
+            <h2 class="section">Changes in 3.1.0</h2>
+            <h2>Major Features</h2>
+            <ul>
+                <li>Change tunable defines so they can be overridden via configure. These are now all named: BIT_*.
+                    <a href="https://github.com/embedthis/goahead/issues/36">[issue 36]</a></li>
+                <li>Add support for the Mocana SSL stack:
+                    <a href="https://github.com/embedthis/goahead/issues/32">[issue 32]</a></li>
+                <li>Add prototype support for the EST SSL stack:
+                    <a href="https://github.com/embedthis/goahead/issues/35">[issue 35]</a></li>
+                <li>Add make install, uninstall
+                    <a href="https://github.com/embedthis/goahead/issues/40">[issue 36]</a></li>
+                <li>Add bit install, uninstall
+                    <a href="https://github.com/embedthis/goahead/issues/41">[issue 41]</a></li>
+            </ul>
+            <h3>Fixes</h3>
+            <ul>
+                <li>The mpr.h header has been split into a cross platform operating system layer called bitos.h.
+                    The mpr.h header includes this, so there should be no API impact.
+                    <a href="https://github.com/embedthis/goahead/issues/37">[issue 37]</a></li>
+                <li>Remove compiler switch -mtune when not required
+                    <a href="https://github.com/embedthis/goahead/issues/38">[issue 38]</a></li>
+                <li>Fix generated makefiles determining the system CPU architecture
+                    <a href="https://github.com/embedthis/goahead/issues/39">[issue 39]</a></li>
+                <li>Optimize socket I/O
+                    <a href="https://github.com/embedthis/goahead/issues/42">[issue 42]</a></li>
+            </ul>
+            <a id="r3.0.0"></a>
+            <h2 class="section">Changes in 3.0.0</h2>
+            <p>This is the first Embedthis edition of the GoAhead web server. </p>
+            <h2>Major Features</h2>
+            <ul>
+                <li>Enhanced HTTP/1.1 support
+                    <a href="https://github.com/embedthis/goahead/issues/3">[issue 3]</a>
+                </li>
+                <li>IPv6 protocol support
+                    <a href="https://github.com/embedthis/goahead/issues/4">[issue 4]</a>
+                </li>
+                <li>HTTP/1.1 Chunking transmit and receive data
+                    <a href="https://github.com/embedthis/goahead/issues/5">[issue 5]</a>
+                </li>
+                <li>Support for PUT, DELETE, OPTIONS and TRACE methods
+                    <a href="https://github.com/embedthis/goahead/issues/6">[issue 6]</a>
+                </li>
+                <li>File upload
+                    <a href="https://github.com/embedthis/goahead/issues/7">[issue 7]</a>
+                </li>
+                <li>Web form based authentication
+                    <a href="https://github.com/embedthis/goahead/issues/8">[issue 8]</a>
+                </li>
+                <li>New User/Role/Ability authorization framework for granular access control
+                    <a href="https://github.com/embedthis/goahead/issues/9">[issue 9]</a>
+                </li>
+                <li>Sessions and session state storage
+                    <a href="https://github.com/embedthis/goahead/issues/10">[issue 10]</a>
+                </li>
+                <li>Security sandbox resource limits
+                    <a href="https://github.com/embedthis/goahead/issues/11">[issue 11]</a>
+                </li>
+                <li>Configurable routing matching by URI, extension, protocol, methods and user authorization
+                    <a href="https://github.com/embedthis/goahead/issues/12">[issue 12]</a>
+                </li>
+                <li>URL redirections
+                    <a href="https://github.com/embedthis/goahead/issues/13">[issue 13]</a>
+                </li>
+                <li>Configurable build options
+                    <a href="https://github.com/embedthis/goahead/issues/14">[issue 14]</a>
+                </li>
+                <li>OpenSSL support
+                    <a href="https://github.com/embedthis/goahead/issues/15">[issue 15]</a>
+                </li>
+            </ul>
+            <h3>Fixes</h3>
+            <ul>
+                <li>Extensive code review and clean up </li>
+                <li>Faster </li>
+                <li>Smaller footprint. Legacy code removed. 30% less code! </li>
+            </ul>
+            <a id="2.0.0"></a>
+            <h2 class="section">Changes in 2.X</h2>
+            <p>The GoAhead web server was originally written by Michael O'Brien when he founded GoAhead Software.
+            Since the acquisition of GoAhead by Oracle, Oracle asked Embedthis to support existing GoAhead customers 
+            and to offer commercial licenses for GoAhead. Embedthis has now significantly upgraded
+            GoAhead with features and security fixes. GoAhead is now more popular than ever.</p>
+        </div>
+    </div>
+<!-- BeginDsi "dsi/bottom.html" -->
+	<div class="bottom">
+		<p class="footnote"> 
+            <a href="../product/copyright.html" >&copy; Embedthis Software LLC, 2003-2013.
+            All rights reserved. Embedthis and Embedthis GoAhead are trademarks of Embedthis Software LLC.</a>
+		</p>
+	</div>
+    <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+    <script type="text/javascript"> 
+      google.load('search', '1', {language : 'en'});
+      google.setOnLoadCallback(function() {
+        var customSearchControl = new google.search.CustomSearchControl(
+          '000262706376373952077:1hs0lhenihk');
+        customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+        var options = new google.search.DrawOptions();
+        options.enableSearchboxOnly("http://embedthis.com/search.html");
+        customSearchControl.draw('cse-search-form', options);
+      }, true);
+    </script>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-179169-5']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+</body>
+</html>

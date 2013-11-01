@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="/">
+    <file>Resources/off.png</file>
+    <file>Resources/fan.gif</file>
+    <file>Resources/on_green.png</file>
+    <file>Resources/on_red.png</file>
+    <file>Resources/on_yellow.png</file>
+    <file>Resources/fan.png</file>
+    <file>Resources/fan-fllower.png</file>
+    <file>Resources/smarthome-1.jpg</file>
+  </qresource>
+</RCC>
